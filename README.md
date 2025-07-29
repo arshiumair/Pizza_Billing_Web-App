@@ -9,18 +9,17 @@ Users can select pizza size, add pepperoni or extra cheese, and get a dynamicall
 
 - Choose pizza size: Small, Medium, or Large  
 - Add optional toppings: Pepperoni and/or Extra Cheese  
-- Real-time bill calculation  
 - Responsive user interface  
-- Hosted on AWS EC2 (optional)
+- Hosted on AWS EC2  
 
 ---
 
 ## 🛠 Tech Stack
 
 - **Backend:** Python 3, Flask  
-- **Frontend:** HTML5, CSS3, Jinja2 (for dynamic rendering)  
+- **Frontend:** HTML5, CSS3  
 - **Server:** Flask Development Server (for local use)  
-- **Deployment (Optional):** AWS EC2 Ubuntu Instance
+- **Deployment :** AWS EC2 Fedora Instance
 
 ---
 
@@ -29,8 +28,7 @@ Users can select pizza size, add pepperoni or extra cheese, and get a dynamicall
 ### Clone the Repository
 
 ```
-git clone https://github.com/your-username/pizza-billing-app.git
-cd pizza-billing-app
+git clone https://github.com/arshiumair/Pizza_Billing_Web-App
 ```
 ---
 ### Create Virtual Environment
@@ -50,16 +48,19 @@ python app.py
 ```
 ### Project Structure
 ```
-pizza-billing-web-app/
-│   
+pizza-billing-app/
 │
-├── templates/           # HTML templates
+├── static/             
+│   └── style.css
+│
+├── templates/           
 │   ├── index.html
 │   └── bill.html
 │
-├── app.py               # Flask application
-├── README.md            # Project documentation
-└── requirements.txt     # Python dependencies
+├── app.py               
+├── README.md            
+└── requirements.txt     
+
 ```
 ## 📄 License
 This project is open-source and available under the **MIT License**.
