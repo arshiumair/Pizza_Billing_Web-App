@@ -63,7 +63,7 @@ pizza-billing-app/
 
 ```
 ## 📄 License
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the [**MIT License**](https://github.com/arshiumair/Pizza_Billing_Web-App/blob/master/LICENSE).
 
 
 
